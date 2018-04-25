@@ -37,3 +37,4 @@ clusterx_circle<-fviz_dend(cluster1, k = 25, cex = 0.5,
 clusterx_philo<-fviz_dend(cluster1, k=20,cex=0.55,
           k_colors = "uchicago",type = "phylogenic", 
           repel=TRUE, phylo_layout = "layout_as_tree")                       #Dendrograma Phylo
+
